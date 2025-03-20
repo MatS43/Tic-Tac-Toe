@@ -1,0 +1,28 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width:225px
+}
+.cell{
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.gamecontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: cursive;
+}
+
+.gamecontainer h1 {
+    width: 100%;
+}
+.gamecontainer p {
+    width: 100%;
+}
